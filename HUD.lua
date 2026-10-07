@@ -2404,7 +2404,6 @@ local function BPADER_routine() -- StarterGui.YARHM.Init
 	
 	getgenv().YARHM = script.Parent
 	getgenv().ThemeManager = require(script.Parent.Theme)
-	local COREGUI = game:GetService("CoreGui")
 	function randomString()
 		local length = math.random(10,20)
 		local array = {}
