@@ -2,15 +2,6 @@
 -- Build Number: 40
 -- By running this script, you agree to ToS and Privacy Policies.
 
-if not game:IsLoaded() then
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Script loading",
-        Text = "Waiting for the game to finish loading!",
-        Duration = 5
-    })
-    game.Loaded:Wait()
-end
-
 local Converted = {
     ["_YARHM"] = Instance.new("ScreenGui");
     ["_FUNCTIONS"] = Instance.new("ModuleScript");
