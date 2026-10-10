@@ -3267,5 +3267,6 @@ coroutine.wrap(ZBXBA_routine)()
 repeat task.wait() until getgenv().YARHM
 getgenv().YARHM_UI = getgenv().YARHM
 getgenv().YARHM_FUNCTIONS_EXPOSED = getgenv().YARHMFUNCTIONS
+getgenv().Converted = Converted -- <--- ESSA LINHA É A CHAVE
 
 print("✅ [YARHM] HUD e Módulos Base carregados com sucesso!")
